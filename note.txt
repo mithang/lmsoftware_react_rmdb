@@ -10,6 +10,17 @@ replace thì đè lên trang hiện tại, khi back trả về trước trang đ
 Phiên bản mới hỗ trợ storybook doc không cần cài nữa
 Hỗ trợ components and stores cùng kiểu tsx hoặc js
 Chú ý: Ký tự đầu tiên viết hoa
+Các thành phần cần quan tâm:
+- Addons
+- Themes
+- Actions
+- Knobs
+- Modal Documentation
+- Accessibility
+- Customization storybook
+- Deploy Storybook cho khách hàng xem
+Phiên bảng trước có cấu hình và dùng khác
+
 7. Kiêm tra các package có phù hợp với reactjs hiện tại không:
 - npm ls babel-loader
 

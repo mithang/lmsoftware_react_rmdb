@@ -24,5 +24,11 @@ Phiên bảng trước có cấu hình và dùng khác
 7. Kiêm tra các package có phù hợp với reactjs hiện tại không:
 - npm ls babel-loader
 
+8. Mat dinh la test bang jest, chung ta co the dung chain,cypress de chay test
+9. De kiem tra cu phap thi dung flow, eslint, lint
+- yarn add flow-bin
+- yarn flow init
+
+
 
 

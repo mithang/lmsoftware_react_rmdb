@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "babel-jest": "24.7.1",
+    "flow-bin": "^0.186.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-fontawesome": "1.6.1",
@@ -18,7 +19,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "flow": "flow"
   },
   "homepage": "http://www.weibenfalk.com/react_rmdb/",
   "devDependencies": {

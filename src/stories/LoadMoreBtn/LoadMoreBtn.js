@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './LoadMoreBtn.css';
 
-const LoadMoreBtn = ({ text, onClick }) => (
-  <div className="rmdb-loadmorebtn" onClick={onClick}>
+const LoadMoreBtn = ({ text, onClick, backgroundColor }) => (
+  <div className="rmdb-loadmorebtn" style={{backgroundColor:backgroundColor}} onClick={onClick}>
     <p>{text}</p>
   </div>
 )

@@ -5,7 +5,13 @@ replace thì đè lên trang hiện tại, khi back trả về trước trang đ
 4.history.go(-2), goBack, goFoward()
 5.lazy load chỉ có từ 16.6.0, muốn dùng thư viện mà dưới 16.6.0 thì https://github.com/smooth-code/loadable-components
 6. Khoi tao storybook in project reactjs
-npx sb init
+- npx sb init
+- yarn storybook
+Phiên bản mới hỗ trợ storybook doc không cần cài nữa
+Hỗ trợ components and stores cùng kiểu tsx hoặc js
+Chú ý: Ký tự đầu tiên viết hoa
+7. Kiêm tra các package có phù hợp với reactjs hiện tại không:
+- npm ls babel-loader
 
 
 

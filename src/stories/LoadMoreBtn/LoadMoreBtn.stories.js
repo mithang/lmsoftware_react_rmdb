@@ -1,5 +1,4 @@
 import React from 'react';
-
 import LoadMoreBtn from './LoadMoreBtn';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
@@ -9,6 +8,7 @@ export default {
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
     backgroundColor: { control: 'color' },
+    argTypes: { onClick: { action: 'clicked' } },
   },
 };
 
@@ -19,7 +19,7 @@ export const Primary = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 Primary.args = {
   primary: true,
-  text: 'Load More',
+  text: 'Load More'
 };
 
 export const Secondary = Template.bind({});

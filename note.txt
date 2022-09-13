@@ -3,5 +3,9 @@
 3.Khi dùng push thì khi back nó sẽ trả về trang trước đó(P1>P2>P3--->P3->P2->P1), 
 replace thì đè lên trang hiện tại, khi back trả về trước trang đó một bước(P1>P2>P3--->P3->P1, không có P2 vì bị đè lên)
 4.history.go(-2), goBack, goFoward()
-
 5.lazy load chỉ có từ 16.6.0, muốn dùng thư viện mà dưới 16.6.0 thì https://github.com/smooth-code/loadable-components
+6. Khoi tao storybook in project reactjs
+npx sb init
+
+
+
